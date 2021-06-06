@@ -57,7 +57,7 @@
                 repellendus natus nihil?
               </p>
               <div class="food-image">
-                <img src="https://taco.sfo2.digitaloceanspaces.com/2019/04/CHIPS.png">
+                <img src="/img/CHIPS.png">
               </div>
             </div>
 
@@ -75,7 +75,7 @@
                 repellendus natus nihil?
               </p>
               <div class="food-image">
-                <img src="https://i.ya-webdesign.com/images/hamburger-and-fries-png-4.png">
+                <img src="/img/hamburger-and-fries-png-4.png">
               </div>
             </div>
 
@@ -93,7 +93,7 @@
                 repellendus natus nihil?
               </p>
               <div class="food-image">
-                <img src="https://www.pngkey.com/png/full/342-3422633_pork-entrees-steak-pork-png.png">
+                <img src="/img/steak.png">
               </div>
             </div>
 
@@ -111,7 +111,7 @@
                 repellendus natus nihil?
               </p>
               <div class="food-image">
-                <img src="https://pngriver.com/wp-content/uploads/2018/04/Download-Salad-Transparent-PNG.png">
+                <img src="/img/hamburger-and-fries-png-4.png">
               </div>
             </div>
 
@@ -130,7 +130,7 @@
               </p>
               <div class="food-image">
                 <img
-                  src="https://pngriver.com/wp-content/uploads/2018/04/Download-Cupcake-PNG-Transparent-Image-420x190.png">
+                  src="/img/steak.png">
               </div>
             </div>
           </div>

@@ -9,9 +9,7 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="/css/app.css">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        
+        <script src="https://use.fontawesome.com/18c84ae54e.js"></script>
     </head>
     <body class="antialiased">
         <section id="app-layout">
@@ -19,7 +17,7 @@
     <div id="home-section">
       <div class="status">NEW</div>
       <h1>Billy Burger</h1>
-      <img src="https://i.ya-webdesign.com/images/hamburger-and-fries-png-4.png" class="burger-fries">
+      <img src="/img/hamburger-and-fries-png-4.png" class="burger-fries">
     </div>
   </section>
     @yield('content')

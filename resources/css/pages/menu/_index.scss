@@ -1,19 +1,42 @@
 #menu-page {
     padding: 100px;
-    h1 {
-        font-size: 3rem;
-        font-weight: 700;
-        color: black;
-        margin-bottom: 1.5rem;
-    }
-    p {
-        font-size: 0.9rem;
-        line-height: 2;
-        margin-bottom: 1rem;
-        font-weight: 500;
-        font-family: 'Montserrat', sans-serif;
-    }
-    
+    #food-preview {
+        padding: 0;
+        background: transparent;
+        h2 {
+            color: #fff;
+            text-transform: uppercase;
+        }
+        .button-rounded {
+            margin-bottom: 2rem;
+        }
+        .container {
+            .left-btn, .right-btn {
+                background: #000;
+           }
+           .food-slider {
+               .slide {
+                 width: 50%;
+                 .content {
+                     justify-content: space-evenly;
+                     height: 100%;
+                     .food-image {
+                         height: 150px;
+                         img {
+                             height: 100%;
+                         }
+                     }
+                 }
+                 &:hover{
+                   .background{
+                     background: #000;
+                     transform: translate3d(0, -200px, 0);
+                   }
+               }
+             }
+       }
+        }
+    } 
 }
 
 // Small devices (landscape phones, 576px and up)

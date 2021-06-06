@@ -1,6 +1,6 @@
 <div class="side-menu">
       <a href="/" class="logo">
-        <img src="https://webstockreview.net/images/clipart-restaurant-restaurant-logo-5.png">
+        <img src="/img/logo.png">
       </a>
       <div class="menu">
         <div class="menu-title">
