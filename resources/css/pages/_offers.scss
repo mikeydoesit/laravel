@@ -1,4 +1,4 @@
-#about-page {
+#offers-page {
     padding: 100px;
     h1 {
         font-size: 3rem;
@@ -13,19 +13,44 @@
         font-weight: 500;
         font-family: 'Montserrat', sans-serif;
     }
-    
+    form {
+        label {
+            font-weight: 700;
+        }
+        input {
+            padding: 7px;
+            border: 2px #ed4852 solid;
+            font-size: 1.1rem;
+        }
+        select {
+            padding: 7px;
+            border: 2px #ed4852 solid;
+            font-size: 1.1rem;
+        }
+        button[type="submit"] {
+            background: #9C1B26;
+            border: none;
+            padding: 21px 42px;
+        }
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 0px) and (max-width: 767px) { 
-  #about-page {
+  #offers-page {
       padding: 20px;
-  }
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            margin-top: 7px
+        }
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) { 
-    #about-page {
+    #offers-page {
         padding: 20px;
     }
 }

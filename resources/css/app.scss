@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 @import "reset";
 @import "pages/about";
+@import "pages/waitlist";
+@import "pages/offers";
+@import "pages/menu/index";
 @import "home";
 
 
@@ -455,3 +458,8 @@ h2{
 @media (min-width: 1400px) { 
   
  }
+
+ .content-box {
+  background: white;
+  padding: 20px;
+}
