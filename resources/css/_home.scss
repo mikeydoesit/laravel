@@ -1,6 +1,7 @@
 
   #home-section{
-    max-width: calc(100vw - 350px);
+    transform: translate3d(350px, 0, 0);
+    width: calc(100% - 350px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,3 +45,28 @@ background: radial-gradient(ellipse at center, #ed4852 0%,#9c1b24 100%); /* W3C,
     // }
 
   }
+
+  // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+  
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+  
+ }
