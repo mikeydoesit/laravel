@@ -16,7 +16,7 @@
     <body class="antialiased">
         <section id="app-layout">
         @include('includes.side-menu')
-    <div class="welcome-jumbo">
+    <div id="home-section">
       <div class="status">NEW</div>
       <h1>Billy Burger</h1>
       <img src="https://i.ya-webdesign.com/images/hamburger-and-fries-png-4.png" class="burger-fries">
