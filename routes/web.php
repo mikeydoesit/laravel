@@ -16,26 +16,25 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-
-
+Route::get('/about', function () {
+    return view('pages/about');
+});
 Route::get('/menu', function () {
     return view('menu/index');
+});
+Route::get('/waitlist', function () {
+    return view('pages/waitlist');
+});
+Route::get('/offers', function () {
+    return view('pages/offers');
 });
 Route::get('/menu/{slug}', function () {
     return view('menu/single-menu');
 });
-
-Route::get('/waitlist', function () {
-    return view('pages/waitlist');
+Route::get('/admin', function () {
+    return view('admin/dashboard');
 });
 
 Route::get('/contact', function () {
     return view('pages/contact');
-});
-
-Route::get('/about', function () {
-    return view('pages/about');
-});
-Route::get('/offers', function () {
-    return view('pages/offers');
 });
