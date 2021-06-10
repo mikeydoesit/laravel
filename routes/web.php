@@ -34,6 +34,9 @@ Route::get('/menu/{slug}', function () {
 Route::get('/admin', function () {
     return view('admin/dashboard');
 });
+Route::get('/admin/food-categories', function () {
+    return view('admin/food-categories/all');
+});
 
 Route::get('/contact', function () {
     return view('pages/contact');
