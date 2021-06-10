@@ -38,3 +38,9 @@ Route::get('/admin', function () {
 Route::get('/contact', function () {
     return view('pages/contact');
 });
+Route::get('/register', function () {
+    return view('pages/register');
+});
+Route::get('/login', function () {
+    return view('pages/login');
+});
