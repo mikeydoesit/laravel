@@ -39,6 +39,10 @@ Route::get('/admin/food-items/{id}/edit', 'App\Http\Controllers\admin\FoodItemsC
 Route::get('/admin/offers-members', 'App\Http\Controllers\admin\CustomersController@allOffersMembers');
 Route::get('/admin/reservations', 'App\Http\Controllers\admin\CustomersController@reservations');
 
+//Admin Users
+Route::get('/admin/users', 'App\Http\Controllers\admin\UsersController@index');
+Route::get('/admin/users/create', 'App\Http\Controllers\admin\UsersController@create');
+Route::get('/admin/users/{id}/edit', 'App\Http\Controllers\admin\UsersController@edit');
 //Admin authentication
 Route::get('/register', function () {
     return view('pages/register');
