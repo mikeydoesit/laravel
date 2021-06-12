@@ -44,11 +44,11 @@ Route::get('/admin/users', 'App\Http\Controllers\admin\UsersController@index');
 Route::get('/admin/users/create', 'App\Http\Controllers\admin\UsersController@create');
 Route::get('/admin/users/{id}/edit', 'App\Http\Controllers\admin\UsersController@edit');
 //Admin authentication
-Route::get('/register', function () {
-    return view('pages/register');
+Route::get('/admin/register', function () {
+    return view('admin/register');
 });
-Route::get('/login', function () {
-    return view('pages/login');
+Route::get('/admin/login', function () {
+    return view('admin/login');
 });
 Auth::routes();
 
