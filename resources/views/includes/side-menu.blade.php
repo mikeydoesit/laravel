@@ -3,21 +3,24 @@
         <img src="/img/logo.png">
       </a>
       <div class="menu">
-        <div class="menu-title">
+        {{-- <div class="menu-title">
           Menu
-        </div>
+        </div> --}}
         <ul class="links">
+          <li>
+            <a href="/menu">Menu</a>
+          </li>
+          <li>
+            <a href="/reservation">Reserve a Table</a>
+          </li>
+          <li>
+            <a href="/offers">Offers</a>
+          </li>
           <li>
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="/menu">Food</a>
-          </li>
-          <li>
-            <a href="/waitlist">Waitlist</a>
-          </li>
-          <li>
-            <a href="/offers">Offers</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>

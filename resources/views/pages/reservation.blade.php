@@ -10,6 +10,10 @@
               <h1>Get on the list</h1>
               <form>
                 <div class="mb-3">
+                  <label for="fullNameInput" class="form-label">Full Name</label>
+                  <input placeholder="Jacob Mensah" name="fullNameInput" type="text" class="form-control" id="phone" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
                   <label for="email" class="form-label">Email address</label>
                   <input placeholder="example@example.com"  name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp">
                 </div>
