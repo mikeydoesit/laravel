@@ -45,10 +45,10 @@ Route::get('/admin/users/create', 'App\Http\Controllers\admin\UsersController@cr
 Route::get('/admin/users/{id}/edit', 'App\Http\Controllers\admin\UsersController@edit');
 //Admin authentication
 Route::get('/admin/register', function () {
-    return view('admin/register');
+    return view('auth/register');
 });
 Route::get('/admin/login', function () {
-    return view('admin/login');
+    return view('auth/login');
 });
 Auth::routes();
 
