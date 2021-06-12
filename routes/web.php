@@ -13,40 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/about', function () {
-    return view('pages/about');
-});
-Route::get('/menu', function () {
-    return view('menu/index');
-});
-Route::get('/waitlist', function () {
-    return view('pages/waitlist');
-});
-Route::get('/offers', function () {
-    return view('pages/offers');
-});
-Route::get('/menu/{slug}', function () {
-    return view('menu/single-menu');
-});
-Route::get('/admin', function () {
-    return view('admin/dashboard');
-});
-Route::get('/admin/food-categories', function () {
-    return view('admin/food-categories/all');
-});
-Route::get('/admin/food-categories/create', function () {
-    return view('admin/food-categories/create');
-});
-Route::get('/admin/food-categories/{id}/edit', function () {
-    return view('admin/food-categories/edit');
-});
+// Static pages
+Route::get('/', 'App\Http\Controllers\StaticPagesController@home');
+Route::get('/menu', 'App\Http\Controllers\StaticPagesController@menu');
+Route::get('/menu/{slug}', 'App\Http\Controllers\StaticPagesController@singleMenu');
+Route::get('/about', 'App\Http\Controllers\StaticPagesController@about');
+Route::get('/contact', 'App\Http\Controllers\StaticPagesController@contact');
+Route::get('/waitlist', 'App\Http\Controllers\StaticPagesController@waitlist');
+Route::get('/offers', 'App\Http\Controllers\StaticPagesController@offers');
 
-Route::get('/contact', function () {
-    return view('pages/contact');
-});
+// Admin Dashboard
+Route::get('/admin', 'App\Http\Controllers\AdminController@dashboard');
+
+//Admin Food Categories
+Route::get('/admin/food-categories', 'App\Http\Controllers\admin\FoodCategoriesController@index');
+Route::get('/admin/food-categories/create', 'App\Http\Controllers\admin\FoodCategoriesController@create');
+Route::get('/admin/food-categories/{id}/edit', 'App\Http\Controllers\admin\FoodCategoriesController@edit');
+
+//Admin authentication
 Route::get('/register', function () {
     return view('pages/register');
 });
