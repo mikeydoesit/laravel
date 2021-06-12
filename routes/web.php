@@ -30,6 +30,11 @@ Route::get('/admin/food-categories', 'App\Http\Controllers\admin\FoodCategoriesC
 Route::get('/admin/food-categories/create', 'App\Http\Controllers\admin\FoodCategoriesController@create');
 Route::get('/admin/food-categories/{id}/edit', 'App\Http\Controllers\admin\FoodCategoriesController@edit');
 
+//Admin Food Items
+Route::get('/admin/food-items', 'App\Http\Controllers\admin\FoodItemsController@index');
+Route::get('/admin/food-items/create', 'App\Http\Controllers\admin\FoodItemsController@create');
+Route::get('/admin/food-items/{id}/edit', 'App\Http\Controllers\admin\FoodItemsController@edit');
+
 //Admin authentication
 Route::get('/register', function () {
     return view('pages/register');
